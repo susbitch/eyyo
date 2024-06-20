@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Template</title>
+    <style>
+        /* Buraya CSS kodlarınızı ekleyebilirsiniz */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding-top: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #fff 5px solid;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 15px 20px;
+        }
+        nav ul li a:hover {
+            color: #333;
+            background-color: #fff;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+            text-align: center;
+            color: #fff;
+            background-size: cover;
+        }
+        .section-a, .section-b {
+            padding: 20px;
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        .section-a {
+            background: #333;
+            color: #fff;
+        }
+        .section-b {
+            background: #f4f4f4;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Website Başlığı</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">Hizmetler</a></li>
+                    <li><a href="#">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Hoş Geldiniz</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet dolor nec velit blandit ultricies.</p>
+        </div>
+    </section>
+
+    <section class="section-a">
+        <div class="container">
+            <h2>Bölüm A</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet dolor nec velit blandit ultricies.</p>
+        </div>
+    </section>
+
+    <section class="section-b">
+        <div class="container">
+            <h2>Bölüm B</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet dolor nec velit blandit ultricies.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 | Website Adı</p>
+    </footer>
+
+</body>
+</html>
 
